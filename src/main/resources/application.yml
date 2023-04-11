@@ -1,0 +1,40 @@
+#端口号
+server:
+  port: 8088
+
+#数据库配置
+spring:
+  datasource:
+    #数据库驱动完整类名
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    #数据库连接url
+    url: jdbc:mysql://localhost:3506/demo?useUnicode=true&useSSL=false
+    #数据库用户名
+    username: root
+    #数据库密码
+    password: root
+
+
+
+# mybatis-plus相关配置
+mybatis-plus:
+  # xml扫描，多个目录用逗号或者分号分隔（告诉 Mapper 所对应的 XML 文件位置）
+  mapper-locations: classpath:/com/wtkj/springbootdemo/mapper/xml/*.xml
+  #配置别名
+  type-aliases-package: com.wtkj.springbootdemo.entity
+  #开启驼峰命名
+  configuration:
+    map-underscore-to-camel-case: true
+
+
+
+
+
+#配置日志输出
+#logging:
+#level:
+#com.jmh.ssm.mapper: debug
+
+
+
+
