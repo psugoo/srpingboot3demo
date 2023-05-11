@@ -4,7 +4,6 @@ import com.wtkj.springbootdemo.common.JsonResponse;
 import com.wtkj.springbootdemo.entity.SysUser;
 import com.wtkj.springbootdemo.service.LoginService;
 import com.wtkj.springbootdemo.utils.Assert;
-import jakarta.annotation.Resource;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
