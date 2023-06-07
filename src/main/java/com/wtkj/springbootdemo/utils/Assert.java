@@ -70,4 +70,15 @@ public class Assert {
 	public static boolean isNullOrEmpty(String str) {
 		return !notNullOrEmpty(str);
 	}
+
+	/**
+	 * 判断 字符串 为 空（字符串的Empty）
+	 *
+	 * @param str
+	 *            任意字符串
+	 * @return 如果字符串为NULL,并且为EMPTY，返回true
+	 */
+	public static boolean isNullOrEmptye(String str) {
+		return !notNullOrEmpty(str);
+	}
 }
